@@ -1,0 +1,86 @@
+/*mygreen top header bar*/
+.fixed_elem{position:fixed !important}
+.lfloat{float:left}
+.rfloat{float:right
+	
+
+
+
+}
+
+
+.img-circle {
+    border-radius: 50%;
+
+}
+
+#header_bar{
+	background-color:#049f42;
+	border-bottom: ridge 8px #049f42 ; 
+	border-top:2px solid #049f42; 
+	min-width:981px;
+	position:absolute;
+	z-index:300;}
+.weak #header_bar.fixed_elem{left:0px;right:0;top:0}
+.weak #header_bar.fixed_elem{position:static}
+#pageHead{margin:0 auto;width:980px}
+#pageHead, #header_bar #pageHead{padding-top:0px;width:981px}
+#pageHead, #header_bar #pageHead{padding-right:205px}
+/*end mygreen top header bar*/
+
+/*navigation header */
+#wrappertab{width:590px;height:61px;background-color:#049f42;}
+.tabhome a:hover,.tabhome a:active{FILTER: alpha(opacity=100);opacity:0.65;}
+.tabmy-account a:hover,.tabmy-account a:active{FILTER: alpha(opacity=100); opacity: 0.65;}
+.tabfriends a:hover,.tabfriends a:active{FILTER: alpha(opacity=100); opacity: 0.65;}
+.tabmessages a:hover,.tabmessages a:active{FILTER: alpha(opacity=100); opacity: 0.65;}
+.tabschool-info a:hover,.tabschool-info a:active{FILTER: alpha(opacity=100); opacity: 0.65;}
+
+.tabhome{background-image:url('images/colored-tab/home.gif');
+width:104px;height:61px;float:left;text-align:center;font-size:13pt;font-family:calibri,arial;font-weight:bold;}
+.tabmy-account{background-image:url('images/colored-tab/my-account.gif');
+width:104px;height:61px;float:left;text-align:center;font-size:13pt;font-family:calibri,arial;font-weight:bold;}
+.tabfriends{background-image:url('images/colored-tab/friends.gif');
+width:104px;height:61px;float:left;text-align:center;font-size:13pt;font-family:calibri,arial;font-weight:bold;}
+.tabmessages{background-image:url('images/colored-tab/messages.gif');
+width:104px;height:61px;float:left;text-align:center;font-size:13pt;font-family:calibri,arial;font-weight:bold;}
+.tabschool-info{background-image:url('images/colored-tab/school-info.gif');
+width:104px;height:61px;float:left;text-align:center;font-size:13pt;font-family:calibri,arial;font-weight:bold;}
+/*end navigation header */
+
+.btn-info {
+color: #fff;
+background-color: #049f42;
+border-color: #fff;
+}
+.btn {
+display: inline-block;
+padding: 13px 20px;
+margin-bottom: 0;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.dropdown-toggle.btn-info{color:#fff;background-color:#027c33;border-color:#02f664}
+
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 2px;
+vertical-align: middle;
+border-top: 4px solid;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+}
